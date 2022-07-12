@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+/* Début du Header */
+#header {
+    height: 100vh;
+}
+/* Début de la navbar */
+#header #navbar {
+    background: #00004c;
+    display: flex;
+    gap: 40%;
+    justify-content: center;
+}
+
+#header #navbar #navBrand {
+    color: #eeeef2;
+}
+
+#header #navbar .navbar-nav .nav-item .nav-link {
+    color: #676794;
+}
+/* Fin de la navbar */
+#header #resteDuHeader {
+    background: #0000ff;
+    /* height: 92%; */
+    padding-top: 171px;
+    padding-bottom: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header #resteDuHeader #resteDuHeaderH1 {
+    color: #ffffff;
+    font-size: 6rem;
+}
+
+#header #resteDuHeader #resteDuHeaderH2 {
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+#header #resteDuHeader #resteDuHeaderBtn {
+    background: #ee0979;
+    color: #fae2ff;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 35px;
+    border: none;
+}
+/* Fin du Header */
+
+/* Début du Mid */
+#mid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#mid .container .row .col-sm-6 h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#mid .container .row .col-sm-6 p{
+   font-size: 1.2rem;
+}
+
+#mid .container .row .col-sm-6 img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+/* Fin du Mid */
+
+/* Début du Footer */
+#footer {
+    background: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p {
+    color: white;
+}
+
+
+
+
+
+
+/* Fin du Footer */
